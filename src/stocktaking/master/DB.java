@@ -60,7 +60,7 @@ public class DB {
 	    	  //Class.forName("org.gjt.mm.mysql.Driver");//my sql
 	         //conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/bmswh","LiamKwonnz","123456789");//my sql
 	    	  Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");//ms sql
-		      conn = DriverManager.getConnection("jdbc:sqlserver://BMSDC:1433;databaseName=STOCKLOCATOR;user=stocklocator;password=BMS1234");//ms sql
+		      conn = DriverManager.getConnection("jdbc:sqlserver://BMSDC:onefourthreethree;databaseName=STOCKLOCATOR;user=stocklocator;password=BMSonetwothreefour");//ms sql
 	    	  stmt = conn.createStatement();
 	         	        
 	      } catch(ClassNotFoundException ex) {
